@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>PAGE POTIN</title>
+  </head>
+  <body>
+    <% if gossip %>
+    <h1>Voici la page du potin !</h1>
+        <p>
+          Son auteur : <%= gossip.author %><br/>
+          Le contenu du potin :<%= gossip.content %>
+        </p>
+      <% end %>
+  </body>
+</html>
